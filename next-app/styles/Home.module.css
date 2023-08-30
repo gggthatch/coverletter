@@ -1,0 +1,50 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 5rem 0;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.inputField {
+  width: 80%;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.outputField {
+  width: 80%;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+}
